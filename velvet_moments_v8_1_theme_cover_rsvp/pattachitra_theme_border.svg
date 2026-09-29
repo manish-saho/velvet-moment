@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" preserveAspectRatio="none">
+<defs>
+  <pattern id="p" width="150" height="160" patternUnits="userSpaceOnUse">
+    <path d="M8 80 Q40 15 75 80 Q40 145 8 80Z" fill="none" stroke="currentColor" stroke-width="3"/>
+    <path d="M75 80 Q110 15 142 80 Q110 145 75 80Z" fill="none" stroke="currentColor" stroke-width="3"/>
+    <circle cx="75" cy="80" r="9" fill="currentColor"/>
+    <path d="M45 38 Q75 10 105 38 M45 122 Q75 150 105 122" fill="none" stroke="currentColor" stroke-width="2"/>
+    <path d="M0 12 Q22 30 0 48 M150 112 Q128 130 150 148" fill="none" stroke="currentColor" stroke-width="2"/>
+  </pattern>
+</defs>
+<rect width="1200" height="160" fill="url(#p)" opacity=".95"/>
+<path d="M0 10 H1200 M0 150 H1200" stroke="currentColor" stroke-width="2" opacity=".55"/>
+</svg>
